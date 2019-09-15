@@ -2978,10 +2978,23 @@ fieldset:disabled a.btn
 
 .btn-primary
 {
-    color: #fff;
-    border-color: #5e72e4;
-    background-color: #5e72e4;
+    color: #000000;
+    border-color: #D3D3D3;
+    background-color: #fff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+.btn-grey
+{
+    color: #000000;
+    border-color: #D3D3D3;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+.btn-grey:hover
+{
+    color: #fff;
+    border-color: #5e72e4; 
+    background-color: #5e72e4;
 }
 .btn-primary:hover
 {
@@ -6207,6 +6220,11 @@ input[type='button'].btn-block
 {
     color: #2643e9;
     background-color: rgba(203, 210, 246, .5);
+}
+.badge-grey
+{
+    color: #fff;
+    background-color: rgba(189, 195, 199, 1);
 }
 .badge-primary[href]:hover,
 .badge-primary[href]:focus
