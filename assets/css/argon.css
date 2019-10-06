@@ -502,6 +502,18 @@ h6,
     color: #32325d;
 }
 
+projects,
+.projects{
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.5;
+
+    margin-bottom: .5rem;
+
+    color:  #696969;
+    font-size: 1.75rem;
+}
+
 h1,
 .h1
 {
