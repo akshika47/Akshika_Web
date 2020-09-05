@@ -825,6 +825,7 @@ pre code
 .col-2,
 .col-3,
 .col-4,
+.col-4-side,
 .col-5,
 .col-6,
 .col-7,
@@ -942,6 +943,13 @@ pre code
     max-width: 33.33333%;
 
     flex: 0 0 33.33333%;
+}
+
+.col-4-side
+{
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+    position: fixed;
 }
 
 .col-5

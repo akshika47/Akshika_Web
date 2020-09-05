@@ -1,0 +1,31 @@
+body {
+    padding-top: 70px;
+}
+
+.text-red-color {
+  color:  darkred !important; // Define your own color in your CSS
+}
+.item_padding{
+    margin-top: 5px;
+}
+
+.split_left {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+    float: left;
+}
+
+.split_right {
+  height: 100%;
+  width: 70%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;
+}
